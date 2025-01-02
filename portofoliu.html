@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal CXA Dev</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar " data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="https://i.postimg.cc/JzBWVhW4/my-avatar.png" alt="avatar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Munteanu Codrut">Codrut Munteanu</h1>
+          <p class="title">Web Developer</p>
+        </div>
+<!-- contact info -->
+        <button class="info-more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="caret-down-outline"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info-more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:codrutxalex@gmail.com" class="contact-link">codrutxalex@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+40770849945" class="contact-link">0770849945</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-05-15">May 15, 2002</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ploiesti, Prahova, RO</address>
+            </div>
+          </li>
+        </ul>
+<!-- social media -->
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item"><a href="https://facebook.com/codrutxalex" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-item"><a href="https://x.com/codrutxalex" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-item"><a href="https://instagram.com/codrutxalex" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+      </div>
+    </aside>
+	
+<!-- meniu -->
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+		<a href="index.html">
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Despre</button></li>
+		</a>
+		<a href="services.html">
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Servicii</button></li>
+		</a>  
+		<a href="portofoliu.html">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>Portfoliu</button></li>
+		</a>  
+		 
+		<a href="contact.html">
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+		</a> 
+        </ul>
+      </nav>
+<!-- Portofoliu -->
+            <article class="portfolio active" data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portofoliu</h2>
+                </header>
+
+                <section class="projects">
+                    
+<!-- PROIECTE MOMENTAN MENTENANTA
+schimbat din inactive in active sa apara-->
+                    <ul class="project-list">
+                        <li class="project-item inactive" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/qRHpHMyd/project-1.jpg" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Finance</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item inactive" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/bNrcM2Wt/project-2.png" alt="orizon" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Orizon</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item inactive" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/jSJVqYsq/project-3.jpg" alt="fundo" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Fundo</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item inactive" data-filter-item data-category="applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/dtpXxNGb/project-4.png" alt="brawlhalla" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Brawlhalla</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item inactive" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/43T0JKLw/project-5.png" alt="dsm." loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">DSM.</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item inactive" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/qR1DX1kZ/project-6.png" alt="metaspark" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Metaspark</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item inactive" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/Kj4q9tjc/project-7.png" alt="summary" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Summary</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item inactive" data-filter-item data-category="applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/rw2j4B1w/project-8.jpg" alt="task manager" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Task Manager</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/7LxNsSQv/project-9.png" alt="arrival" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">MENTENANTA</h3>
+                                <p class="project-category">Site-ul este in dezvoltare, ne cerem scuze!</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+  
+  </main>
+<!-- script pt contacts-->
+  <script src="main.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
