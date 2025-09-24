@@ -1462,3 +1462,54 @@ textarea.form-input {
 
     .timeline-text { max-width: 700px; }
 }
+
+
+/*     buton  */
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adăugăm și <a> să preia stilurile de buton */
+button,
+a.btn-effect-7 {
+  position: relative;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  color: white;
+  text-decoration: none; /* scoate underline-ul */
+  display: inline-block; /* ca să respecte padding-ul */
+}
+
+.btn-effect-7 {
+  background: #222;
+  color: #f1c40f;
+  border: 2px solid #f1c40f;
+}
+
+.btn-effect-7:hover {
+  animation: lightning 1.5s infinite;
+}
+
+@keyframes lightning {
+  0%, 50%, 100% { box-shadow: 0 0 5px #f1c40f; }
+  25% { box-shadow: 0 0 20px #f1c40f; }
+  75% { box-shadow: 0 0 30px #f1c40f, 0 0 50px #f1c40f; }
+}
